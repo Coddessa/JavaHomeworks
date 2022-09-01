@@ -57,7 +57,9 @@ public class Homework5 {
           // task (7) Метод 4 сравнить 2 прямоугольника
           boolean isTheSameRectangle(Rectangle obj) {
               if (obj.x == this.x && obj.y == this.y)
-                  return true;
+                 return true;
+              else if (obj.x == this.y && obj.y == this.x)
+                 return true;
               else return false;
           }
       }
