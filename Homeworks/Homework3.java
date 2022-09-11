@@ -127,9 +127,9 @@ public class Homework3 {
         System.out.println (x + "!" + "=" + result.factorial(x) );
 
     //2. simple number
-        int z = 41;
-        boolean q = false;
-        for(int i =2; i<z; i++) {
+        int z = 4;
+        boolean q = true;
+        for(int i = 2; i<z; i++) {
 
             if (z % i == 0) {
                 q = false;
